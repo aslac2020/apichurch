@@ -59,6 +59,7 @@ C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\BackChurch.Asse
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\BackChurch.csproj.CoreCompileInputs.cache
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\BackChurch.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\BackChurch.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\BackChurch.sourcelink.json
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\staticwebassets.build.json
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\staticwebassets.development.json
 C:\Projetos Pessoais\.NET\BackChurch\BackChurch\obj\Debug\net8.0\staticwebassets\msbuild.BackChurch.Microsoft.AspNetCore.StaticWebAssets.props

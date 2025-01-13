@@ -17,21 +17,21 @@ namespace BackChurch.Controller
         }
 
         [HttpGet("")]
-        public async Task<IActionResult> ObterDizimos()
+        public async Task<IActionResult> ObterHistoricoMinisterial()
         {
             var retorno = await _historicoMinisterialRepository.ObterHistoricoMinisterial();
             return retorno?.Count > 0 ? Ok(retorno) : BadRequest("Lista de historico não encontrado.");
         }
 
          [HttpGet("{id}")]
-        public async Task<IActionResult> ObterDizimoPorId(int id)
+        public async Task<IActionResult> ObterHistoricoMinisterialPorId(int id)
         {
             var retorno = await _historicoMinisterialRepository.ObterHistoricoMinisterialPorId(id);
             return retorno != null ? Ok(retorno) : BadRequest("Historico ministerial não encontrado.");
         }
 
         [HttpPost("")]
-        public async Task<IActionResult> CriarDizimo(HistoricoMinisterialRequest request)
+        public async Task<IActionResult> CriarHistoricoMinisterial(HistoricoMinisterialRequest request)
         {
             HistoricoMinisterial historico = new()
             {
@@ -58,7 +58,7 @@ namespace BackChurch.Controller
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletarDizimo(int id)
+        public async Task<IActionResult> DeletarHistoricoMinisterial(int id)
         {
             var retorno = await _historicoMinisterialRepository.DeletarHistoricoMinisterial(id);
 
@@ -73,7 +73,7 @@ namespace BackChurch.Controller
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> AtualizarDizimo(HistoricoMinisterialRequest request, int id)
+        public async Task<IActionResult> AtualizarHistoricoMinisterial(HistoricoMinisterialRequest request, int id)
         {
             HistoricoMinisterial historico = new()
             {

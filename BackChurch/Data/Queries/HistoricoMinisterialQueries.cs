@@ -63,7 +63,9 @@
                     @DataConversao,
                     @DataBatismo,
                     @DataBatismoEspirito,
-                    @Dizimista";
+                    @Dizimista
+                    )                   
+            ";
         }
 
         private string DeletarUmHistoricoMinisterial()

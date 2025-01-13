@@ -20,7 +20,7 @@
 
     public partial class IgrejaSemEndereco
     {
-         public int IdIgreja { get; set; }
+        public int IdIgreja { get; set; }
         public string CodIgreja { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }

@@ -16,6 +16,7 @@ builder.Services.AddScoped<IFrequenciaRepository, FrequenciaRepository>();
 builder.Services.AddScoped<IDizimoRepository, DizimosRepository>();
 builder.Services.AddScoped<IHistoricoMinisterialRepository, HistoricoMinisterialRepository>();
 builder.Services.AddScoped<IEnderecosMembrosRepository, EnderecosMembrosRepository>();
+builder.Services.AddScoped<IMembrosRepository, MembrosRepository>();
 
 builder.Services.AddMemoryCache();
 

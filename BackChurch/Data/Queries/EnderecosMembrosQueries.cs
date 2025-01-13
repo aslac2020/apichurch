@@ -20,13 +20,31 @@
         private string BuscarEnderecoDosMembros()
         {
             return $@"
-                SELECT * FROM EnderecoMembros";
+                SELECT 
+                    Id_Endereco AS IdEndereco,
+                    Cep,
+                    Logradouro,
+                    Numero,
+                    Complemento,
+                    Bairro,
+                    Cidade,
+                    Estado
+                FROM EnderecoMembros";
         }
 
         private string BuscarEnderecoDeUmMembro()
         {
            return $@"
-                SELECT * FROM EnderecoMembros WHERE Id_Endereco = @IdEndereco";
+                SELECT 
+                    Id_Endereco AS IdEndereco,
+                    Cep,
+                    Logradouro,
+                    Numero,
+                    Complemento,
+                    Bairro,
+                    Cidade,
+                    Estado
+                FROM EnderecoMembros WHERE Id_Endereco = @IdEndereco";
         }
 
         private string InserirEnderecoDeUmMembro()
@@ -44,7 +62,7 @@
         private string AtualizarEnderecoDeUmMembro()
         {
             return $@"
-                UPDATE EnderecoMembros SET Cep = @Cep, Logradouro = @Logradouro, Numero = @Numero, Complemento = @Complemento, Bairro = @Bairro, Cidade = @Cidade, Estado = @Estado WHERE Id_Endereco = @Id_Endereco";
+                UPDATE EnderecoMembros SET Cep = @Cep, Logradouro = @Logradouro, Numero = @Numero, Complemento = @Complemento, Bairro = @Bairro, Cidade = @Cidade, Estado = @Estado WHERE Id_Endereco = @IdEndereco";
         }
     }
 }
