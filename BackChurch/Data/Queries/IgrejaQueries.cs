@@ -31,7 +31,8 @@
                        Id_Endereco AS IdEndereco, 
                        Aluguel, 
                        Valor_Aluguel AS ValorAluguel, 
-                       Data_Pagamento_Aluguel AS DataPagamentoAluguel
+                       Data_Pagamento_Aluguel AS DataPagamentoAluguel,
+                       Id_IgrejaSetor AS IdIgrejaSetor
                FROM Igrejas
             ";
         }
@@ -45,8 +46,8 @@
         private string InserirIgrejas()
         {
             return $@"
-                INSERT INTO Igrejas (Cod_Igreja, Nome, Telefone, Email, Id_Endereco, Aluguel, Valor_Aluguel, Data_Pagamento_Aluguel)
-                VALUES (@CodIgreja, @Nome, @Telefone, @Email, @IdEndereco, @Aluguel, @ValorAluguel, @DataPagamentoAluguel)";
+                INSERT INTO Igrejas (Cod_Igreja, Nome, Telefone, Email, Id_Endereco, Aluguel, Valor_Aluguel, Data_Pagamento_Aluguel, Id_Igreja_Setor)
+                VALUES (@CodIgreja, @Nome, @Telefone, @Email, @IdEndereco, @Aluguel, @ValorAluguel, @DataPagamentoAluguel, @IdIgrejaSetor)";
         }
 
         private string BuscarIgrejasPorId()
@@ -60,35 +61,12 @@
                        Id_Endereco AS IdEndereco, 
                        Aluguel, 
                        Valor_Aluguel AS ValorAluguel, 
-                       Data_Pagamento_Aluguel AS DataPagamentoAluguel
+                       Data_Pagamento_Aluguel AS DataPagamentoAluguel,
+                       Id_IgrejaSetor AS IdIgrejaSetor
                FROM Igrejas 
                 WHERE  Id_Igreja = @IdIgreja ";
         }
 
-
-        //   private string BuscarIgrejasPorId()
-        //{
-        //    return $@"
-        //       SELECT i.Id_Igreja AS IdIgreja,
-        //               i.Cod_Igreja AS CodIgreja, 
-        //               i.Nome, 
-        //               i.Telefone, 
-        //               i.Email, 
-        //               i.Aluguel, 
-        //               i.Valor_Aluguel AS ValorAluguel, 
-        //               i.Data_Pagamento_Aluguel AS DataPagamentoAluguel,
-        //               e.Id_Endereco AS IdEndereco,
-        //               e.Cep,
-        //               e.Logradouro,
-        //               e.Numero,
-        //               e.Complemento,
-        //               e.Bairro,
-        //               e.Cidade,
-        //               e.Estado
-        //       FROM Igrejas i 
-        //       LEFT JOIN EnderecoIgrejas e ON i.Id_Endereco = e.Id_Endereco
-        //        WHERE  i.Id_Igreja = @IdIgreja ";
-        //}
 
         private string DeletarUmaIgreja()
         {
@@ -99,7 +77,11 @@
         private string AtualizarUmaIgreja()
         {
             return $@"
-                UPDATE Igrejas SET Cod_Igreja = @CodIgreja, Nome = @Nome, Telefone = @Telefone, Email = @Email, Id_Endereco = @IdEndereco, Aluguel = @Aluguel, Valor_Aluguel = @ValorAluguel, Data_Pagamento_Aluguel = @DataPagamentoAluguel WHERE Id_Igreja = @IdIgreja";
+                UPDATE Igrejas SET Cod_Igreja = @CodIgreja, Nome = @Nome, Telefone = @Telefone, Email = @Email, 
+                Id_Endereco = @IdEndereco, Aluguel = @Aluguel, Valor_Aluguel = @ValorAluguel, 
+                Data_Pagamento_Aluguel = @DataPagamentoAluguel Id_Igreja_Setor = @IdIgrejaSetor
+                WHERE Id_Igreja = @IdIgreja,
+                ";
         }
     }
 }

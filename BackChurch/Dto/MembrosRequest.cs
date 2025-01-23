@@ -13,5 +13,7 @@
         public int IdEndereco { get; set; }
         public int IdHistorico { get; set; }
         public int IdIgreja { get; set; }
+        public int? IdIgrejaSetor { get; set; }
+        public int? IdIgrejaCongregacao { get; set; }
     }
 }

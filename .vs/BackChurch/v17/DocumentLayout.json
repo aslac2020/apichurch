@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos Pessoais\\.NET\\BackChurch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\data\\membrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\data\\membrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\domain\\membros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\domain\\membros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\dto\\membrosrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\dto\\membrosrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\controller\\membroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\controller\\membroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\data\\queries\\membrosqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\data\\queries\\membrosqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\data\\queries\\igrejaqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\data\\queries\\igrejaqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|c:\\projetos pessoais\\.net\\backchurch\\backchurch\\data\\queries\\igrejassetoresqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8849C4C8-B508-4B83-839C-E027F5042A9C}|BackChurch\\BackChurch.csproj|solutionrelative:backchurch\\data\\queries\\igrejassetoresqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Membros.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Domain\\Membros.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Domain\\Membros.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Domain\\Membros.cs",
+              "RelativeToolTip": "BackChurch\\Domain\\Membros.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAywE8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:12:01.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MembrosController.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Controller\\MembrosController.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Controller\\MembrosController.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Controller\\MembrosController.cs",
+              "RelativeToolTip": "BackChurch\\Controller\\MembrosController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:06:13.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MembrosRequest.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Dto\\MembrosRequest.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Dto\\MembrosRequest.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Dto\\MembrosRequest.cs",
+              "RelativeToolTip": "BackChurch\\Dto\\MembrosRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:59:52.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MembrosQueries.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\MembrosQueries.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Data\\Queries\\MembrosQueries.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\MembrosQueries.cs",
+              "RelativeToolTip": "BackChurch\\Data\\Queries\\MembrosQueries.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:49:05.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MembrosRepository.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\MembrosRepository.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Data\\MembrosRepository.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\MembrosRepository.cs",
+              "RelativeToolTip": "BackChurch\\Data\\MembrosRepository.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwD0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:32:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IgrejasSetoresQueries.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\IgrejasSetoresQueries.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Data\\Queries\\IgrejasSetoresQueries.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\IgrejasSetoresQueries.cs",
+              "RelativeToolTip": "BackChurch\\Data\\Queries\\IgrejasSetoresQueries.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAASwDQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:33:05.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IgrejaQueries.cs",
+              "DocumentMoniker": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\IgrejaQueries.cs",
+              "RelativeDocumentMoniker": "BackChurch\\Data\\Queries\\IgrejaQueries.cs",
+              "ToolTip": "C:\\Projetos Pessoais\\.NET\\BackChurch\\BackChurch\\Data\\Queries\\IgrejaQueries.cs",
+              "RelativeToolTip": "BackChurch\\Data\\Queries\\IgrejaQueries.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwDAAAACUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:26:29.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

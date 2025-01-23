@@ -17,6 +17,8 @@ builder.Services.AddScoped<IDizimoRepository, DizimosRepository>();
 builder.Services.AddScoped<IHistoricoMinisterialRepository, HistoricoMinisterialRepository>();
 builder.Services.AddScoped<IEnderecosMembrosRepository, EnderecosMembrosRepository>();
 builder.Services.AddScoped<IMembrosRepository, MembrosRepository>();
+builder.Services.AddScoped<IIgrejasSetoresRepository, IgrejasSetoresRepository>();
+builder.Services.AddScoped<IIgrejasCongregacionaisRepository, IgrejasCongregacionaisRepository>();
 
 builder.Services.AddMemoryCache();
 

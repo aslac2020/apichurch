@@ -1,27 +1,9 @@
 ﻿namespace BackChurch.Domain
 {
-    public partial class Igrejas
+    public  class IgrejasSetores
     {
 
-        public int IdIgreja { get; set; }
-        public string CodIgreja { get; set; }
-        public string Nome { get; set; }
-        public string Telefone { get; set; }
-        public string Email { get; set; }
-        public int IdEndereco { get; set; }
-        public bool Aluguel { get; set; }
-        public decimal? ValorAluguel { get; set; }
-        public Endereco? EnderecoDaIgreja { get; set; }
-        public DateTime? DataPagamentoAluguel { get; set; } = null;
-        public int? IdIgrejaSetor { get; set; }
-
-    
-
-    }
-
-    public partial class IgrejaSemEndereco
-    {
-        public int IdIgreja { get; set; }
+        public int IdIgrejaSetor { get; set; }
         public string CodIgreja { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }
@@ -30,10 +12,28 @@
         public bool Aluguel { get; set; }
         public decimal? ValorAluguel { get; set; }
         public DateTime? DataPagamentoAluguel { get; set; } = null;
-        public int? IdIgrejaSetor { get; set; }
+        public int? IdIgrejaRegional { get; set; }
+        public EnderecoSetores EnderecoDaIgreja { get; set;}
+
+
     }
 
-    public class Endereco
+    public partial class IgrejaSetoresSemEndereco
+    {
+        public int IdIgrejaSetor { get; set; }
+        public string CodIgreja { get; set; }
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string Email { get; set; }
+        public int IdEndereco { get; set; }
+        public bool Aluguel { get; set; }
+        public decimal? ValorAluguel { get; set; }
+        public DateTime? DataPagamentoAluguel { get; set; } = null;
+        public int? IdIgrejaRegional { get; set; }
+
+    }
+
+    public class EnderecoSetores
     {
         public int Id_Endereco { get; set; }
         public string Cep { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackChurch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98152a58106fa93117ccd36b584257a71bccc928")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83829dc7992a2b369a54709ec546303cd61f745d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackChurch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackChurch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

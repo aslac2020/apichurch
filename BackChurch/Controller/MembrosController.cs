@@ -47,7 +47,9 @@ namespace BackChurch.Controller
                 EstadoCivil = request.EstadoCivil,
                 IdEndereco = request.IdEndereco,
                 IdHistorico = request.IdHistorico,
-                IdIgreja = request.IdIgreja
+                IdIgreja = request.IdIgreja,
+                IdIgrejaSetor = request?.IdIgrejaSetor,
+                IdIgrejaCongregacao = request?.IdIgrejaCongregacao
             };
 
 
@@ -96,7 +98,9 @@ namespace BackChurch.Controller
                 EstadoCivil = request.EstadoCivil,
                 IdEndereco = request.IdEndereco,
                 IdHistorico = request.IdHistorico,
-                IdIgreja = request.IdIgreja
+                IdIgreja = request.IdIgreja,
+                IdIgrejaSetor = request?.IdIgrejaSetor,
+                IdIgrejaCongregacao = request?.IdIgrejaCongregacao
               };
 
 

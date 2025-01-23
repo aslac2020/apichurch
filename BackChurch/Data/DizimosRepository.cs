@@ -10,11 +10,13 @@ namespace BackChurch.Data
     {
         private readonly string connectionString;
         private readonly DizimosQueries dizimosQueries;
+        private readonly MembrosQueries membrosQueries;
 
         public DizimosRepository(IConfiguration configuration)
         {
            connectionString = configuration.GetConnectionString("DefaultConnection");
            dizimosQueries = new DizimosQueries();
+           membrosQueries = new MembrosQueries();
         }
 
          public async Task<Dizimos> ObterDizimoPorId(int id)
@@ -23,7 +25,15 @@ namespace BackChurch.Data
 
             await using (var con = new SqlConnection(connectionString))
             {
-                return await con.QueryFirstOrDefaultAsync<Dizimos>(query, new { IdDizimo = id }).ConfigureAwait(false); 
+                var dizimoMembro = await con.QueryFirstOrDefaultAsync<Dizimos>(query, new { IdDizimo = id }).ConfigureAwait(false);
+
+                if (dizimoMembro != null)
+                {
+                    var queryMembro = membrosQueries.BuscarMembroPorId;
+                    dizimoMembro.DizimoDoMembro = await con.QueryFirstOrDefaultAsync<RelatorioDizimoMembro>(queryMembro, new { IdMembro = dizimoMembro.IdMembro });
+                }
+
+                return dizimoMembro; 
             }
          }
 
